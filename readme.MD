@@ -1,11 +1,11 @@
-Слайдер для фото со следующими свойствами:
+Slider for photos with the following properties:
 
-1. Есть возможность пролистывать фото. 2 кнопки вперед и назад (предыдущее, следующее и так далее).
-2. При клике «назад» на первом фото открываться последнее. При клике «вперед» на последнем фото открывается первое.
-3. Блок, в котором располагаются изображения, не меняется под размер картинок.
-4. Анимацию при переключении фото.
-5. На входе — массив изображений. Их может быть любое количество. Не завязывается на порядковый номер элемента.
-6. Картинки можно положить в папку asset. Либо использовать стороннее API, сделав GET-запрос для получения изображений.
-7. Семантическая верстка.
-8. Не использовались селекторы по тегу для задания стилей. Использовались классы и селектор по id.
-9. Дизайн произвольный. Минимум — застилизованы кнопки (добавлены hover) и обеспечены для них accessibility: переключение по tab, outline, cursor.
+1. It is possible to scroll through photos. 2 buttons forward and backward (previous, next and so on).
+2. When you click "back" on the first photo, the last one opens. When you click "forward" on the last photo, the first one opens.
+3. The block in which the images are located does not change to the size of the images.
+4. Animation when switching photos.
+5. At the input — an array of images. There can be any number of them. It is not tied to the ordinal number of the element.
+6. Pictures can be put in the asset folder. Or use a third-party API by making a GET request to get images.
+7. Semantic layout.
+8. Tag selectors were not used to set styles. Classes and a selector by id were used.
+9. The design is arbitrary. Minimum — the buttons are fixed (hover added) and accessibility is provided for them: switching by tab, outline, cursor.
