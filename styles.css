@@ -1,6 +1,6 @@
 
 .h1-center {
-    text-align: center;
+    text-align: left;
     margin: 0;
     padding: 20px 0;
     color: #00539F;
@@ -47,12 +47,17 @@
 }
 
 .button-slider{
+    /* background-color: rgb(12, 68, 118);
+    color: #00539F; */
     position: relative;
     left: 50%;
-    top: 50%;
+    top: 45%;
     transform: translate(-50%, 0);
     cursor: pointer;
-    outline: 1px solid #666;
+    width: 80px;
+    height: 50px;
+    
+    
 }
 
 
@@ -61,7 +66,7 @@
     bottom: 0;
     width: 100%;
     /* Высота footer */
-    height: 30px;
+    height: 50px;
 }
 
 :focus {
