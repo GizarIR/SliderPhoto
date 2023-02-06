@@ -1,4 +1,4 @@
-Slider for photos with the following properties:
+Simple slider for photos with the following properties:
 
 1. It is possible to scroll through photos. 2 buttons forward and backward (previous, next and so on).
 2. When you click "back" on the first photo, the last one opens. When you click "forward" on the last photo, the first one opens.
