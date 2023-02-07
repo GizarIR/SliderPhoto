@@ -14,8 +14,8 @@ function reset_animation() {
     el.style.animation = null; 
   }
 
-const calcIndex = (i) => {
-    const result = (imagesArray.length + n + i) % imagesArray.length;
+const calcIndex = (index) => {
+    const result = (imagesArray.length + n + index) % imagesArray.length;
     if (result === 0) {i = 0};
     return result
 };
